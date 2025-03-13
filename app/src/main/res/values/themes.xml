@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CreativeMagazine" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="SplashScreenTheme" parent = "Theme.CreativeMagazine">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/magazine_flat_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.CreativeMagazine</item>
+    </style>
+</resources>
